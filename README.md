@@ -21,6 +21,7 @@ I own a pizza place and as a way of trying to widen my customer base, I decided 
 
 ## Github Pages link
 You can view the live application by following this link 
+https://benitha250.github.io/LaNoshery/
 
 ## Contact information
 * buwase120@daviscollege.com
