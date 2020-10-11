@@ -71,6 +71,17 @@
                             <option value="1000" name="crust">Glutten free 1000 Rwf
                             </select> 
                             <br>
+                            <label>Choose your Desired toppings (300 Rwf/each)</label> <br>
+                            <input value="300" type="checkbox" id="topping">Mushrooms
+                            <input value="300" type="checkbox" id="topping">Onions
+                            <br> <br>
+                            <label for="">Input Quantity</label>
+                            <input class="form-control form-group" type="text" id="numberofpizza">
+                            <button name="button" type="submit" id="submit" value="Check-Out"
+                                onclick="calctotalPrice()">Checkout</button>
+                                <form onsubmit="return clearInput()">
+                                    <input class="clear" type="submit" value="Clear input">
+                                </form>
                         </form>
                        </div>
                    </div>
