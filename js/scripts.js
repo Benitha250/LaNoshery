@@ -30,3 +30,17 @@ function calctotalPrice(event) {
     alert("Your order of " + getNumber() + " pizzas has been processed.Your total amount payable is " + totalPrice +"." )
 
 }
+
+//////////////////User Interface
+$(document).ready(function () {
+    $("#delivery").submit(function () {
+
+        var name = $("input#name").val();
+        var number = $("input#number").val();
+        var location = $("input#location").val();
+
+        alert("Hello " + name + ". Thank you for chosing LaNoshery. Your order has been successfuly received and will be delivered to " +  location + ".The delivery will cost 1000 Rwf. We will call you shortly on " + number);
+
+    });
+    
+});
