@@ -35,3 +35,8 @@
     margin-left: 100px;
     color:white;
 }
+
+#submit, .clear{
+    background-color: grey;
+    border-radius: 10px;
+}
