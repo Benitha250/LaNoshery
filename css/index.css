@@ -36,9 +36,13 @@
     color:white;
 }
 
-#submit, .clear{
+#submit, .clear, #delivery, #cancel{
     background-color: grey;
     border-radius: 10px;
+}
+/*-------------------form section---------------------- */
+#deliveryForm{
+    display: none;
 }
 
 /*-------------------footer section---------------------- */

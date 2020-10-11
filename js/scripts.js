@@ -30,10 +30,26 @@ function calctotalPrice(e) {
     alert("Your order of " + getNumber() + " pizzas has been processed.Your total amount payable is " + totalPrice +"." )
 
 }
+$(document).ready(function(){
+    $("#delivery").click(function(){
+        $("#delivery").toggle(1000);
+        $("#deliveryForm").toggle(1200);
+        $("#cancel").slideDown(1000);
+
+    });
+    $("#cancel").click(function(){
+        $("#cancel").slideUp(1000);
+        $("#deliveryForm").slideUp(1200);
+        alert("The delivery process have been cancelled.");
+        $("#delivery").slideDown(1200);
+
+    });
+    
+});
 
 //////////////////User Interface
 $(document).ready(function () {
-    $("#delivery").submit(function () {
+    $("#delivery-info").submit(function () {
 
         var name = $("input#name").val();
         var number = $("input#number").val();
