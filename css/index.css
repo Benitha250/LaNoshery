@@ -24,3 +24,14 @@
 .menu{
     padding-top: 50px;
 }
+
+/*-------------------Menu section---------------------- */
+
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/background.jpeg");
+    background-size: cover;
+    margin-top: 50px;
+    width:900px;
+    margin-left: 100px;
+    color:white;
+}
